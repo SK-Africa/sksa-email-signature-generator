@@ -1,3 +1,10 @@
+# Available Data:
+# - firstName: Brett
+#   lastName: Perlstein
+#   title: Team Member Title
+#   avatar: placeholder.png (default: firstName-lastName.png)
+#   email: brett@searchkingsafrica.com (default: firstName@searchkingsafrica.com)
+
 teamMembers: 
   - firstName: Brett
     lastName: Perlstein
