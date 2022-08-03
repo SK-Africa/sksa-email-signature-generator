@@ -70,7 +70,7 @@
       </tr>
       <tr>
         <td width="48" valign="middle" style="width:48px;margin:0;padding:0;">
-          <a href='mailto:{{ member.email }}' style="border:none;text-decoration:none;">
+          <a href='mailto:{% if member.email %}{{ member.email }}{% else %}{{ member.firstName | slugify }}@searchkingsafrica.com{% endif %}' style="border:none;text-decoration:none;">
             <img moz-do-not-send="true" src="/img/avatars/{% if member.avatar %}{{member.avatar}}{% else %}{{member.firstName | slugify}}{% if member.lastName %}-{% endif %}{{member.lastName | slugify}}.png{% endif %}" style="border:none;display:block;">
           </a>
         </td>
