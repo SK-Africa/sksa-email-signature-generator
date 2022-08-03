@@ -7,6 +7,9 @@ Install: `gem install bundler jekyll`
 #### Usage
 run locally: `bundle exec jekyll serve` | localhost:4000
 
+- *Company info: config.yml*
+- *Employee info: _data/team-members.yml*
+
 #### Features
 - auto-generated email mailto: URLs, example: `firstname@searchkingsafrica.com` (or supply a custom entry)
 - auto-generated avatar image source, example: `firstname-lastname.png` (or supply a custom entry)
@@ -14,6 +17,3 @@ run locally: `bundle exec jekyll serve` | localhost:4000
 - simple YAML team members data structure
 - builds in just over 0.01 seconds
 
-#### Data
-- *Company info: config.yml*
-- *Employee info: _data/team-members.yml*
