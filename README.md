@@ -15,5 +15,5 @@ run locally: `bundle exec jekyll serve` | localhost:4000
 - builds in just over 0.01 seconds
 
 #### Data
-*Company info: config.yml*
-*Employee info: _data/team-members.yml*
+- *Company info: config.yml*
+- *Employee info: _data/team-members.yml*
