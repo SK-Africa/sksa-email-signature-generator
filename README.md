@@ -15,5 +15,4 @@ run locally: `bundle exec jekyll serve` | localhost:4000
 - auto-generated avatar image source, example: `firstname-lastname.png` (or supply a custom entry)
 - click-to-copy email signature button
 - simple YAML team members data structure
-- builds in just over 0.01 seconds
-
+- builds in just over 0.02 seconds

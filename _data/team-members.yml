@@ -1,100 +1,101 @@
 teamMembers: 
   - firstName: Brett
     lastName: Perlstein
-    title: title
+    title: Team Member Title
 
   - firstName: Kyla
     lastName: Gellatly
-    title: title
+    title: Team Member Title
 
   - firstName: Dean
     lastName: Lurie
-    title: title
+    title: Team Member Title
 
   - firstName: Manelisi
     lastName: Ndebele
-    title: title
+    title: Team Member Title
     avatar: placeholder.png
 
   - firstName: Lwazi
     lastName: Ndlebe
-    title: title
+    title: Team Member Title
 
   - firstName: Steve
     lastName: Donzella
-    title: title
+    title: Team Member Title
 
   - firstName: Tiaan
     lastName: van Wyk
-    title: title
+    title: Team Member Title
 
   - firstName: Thando
     lastName: Somacele
-    title: title
+    title: Team Member Title
 
   - firstName: Michelle
     lastName: Swartz
-    title: title
+    title: Team Member Title
 
   - firstName: Janno
     lastName: du Preez
-    title: title
+    title: Team Member Title
 
   - firstName: Grant
     lastName: Greeff
-    title: title
+    title: Team Member Title
 
   - firstName: Mumsie
     lastName: Maje
-    title: title
+    title: Team Member Title
 
   - firstName: Justin
     lastName: Underhill
-    title: title
+    title: Team Member Title
     avatar: placeholder.png
 
   - firstName: Janine
     lastName: Robbertze
-    title: title
+    title: Team Member Title
     avatar: placeholder.png
 
   - firstName: Gabriella
     lastName: Bytenski
-    title: title
+    title: Team Member Title
+    email: gabi@searchkingsafrica.com
 
   - firstName: Kagiso
     lastName: Mangoale
-    title: title
+    title: Team Member Title
 
   - firstName: Dillan
     lastName: Ramrattan
-    title: title
+    title: Team Member Title
 
   - firstName: Lizelle
     lastName: Alberts
-    title: title
+    title: Team Member Title
 
   - firstName: Reegan
     lastName: Du Buisson
-    title: title
+    title: Team Member Title
 
   - firstName: Adam
     lastName: Stern
-    title: title
+    title: Team Member Title
 
   - firstName: Chiara
     lastName: Moody
-    title: title
+    title: Team Member Title
 
   - firstName: Natasha
     lastName: Desiree Nair
-    title: title
+    title: Team Member Title
 
   - firstName: Gugulethu
     lastName: Nkosi
-    title: title
+    title: Team Member Title
 
   - firstName: Nico
     lastName: Swartz
-    title: title
+    title: Team Member Title
 
