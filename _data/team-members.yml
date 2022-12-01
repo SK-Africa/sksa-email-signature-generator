@@ -63,7 +63,6 @@ teamMembers:
   - firstName: Janine
     lastName: Robbertze
     title: Team Member Title
-    avatar: placeholder.png
 
   - firstName: Gabriella
     lastName: Bytenski
@@ -104,4 +103,25 @@ teamMembers:
 
   - firstName: Nico
     lastName: Swartz
+    title: Team Member Title
+
+  - firstName: Siphiwo Sizonqoba
+    lastName: Manan
+    title: Team Member Title
+    email: sizo@searchkingsafrica.com
+  
+  - firstName: Luyanda
+    lastName: Shongwe
+    title: Team Member Title
+
+  - firstName: Musa
+    lastName: Mahlasela
+    title: Team Member Title
+  
+  - firstName: Rick
+    lastName: Dalhuijsen
+    title: Team Member Title
+  
+  - firstName: Michael
+    lastName: Bakango
     title: Team Member Title
