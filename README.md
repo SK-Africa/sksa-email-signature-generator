@@ -1,0 +1,1 @@
+# sksa-email-signature-generator
