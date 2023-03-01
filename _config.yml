@@ -1,0 +1,8 @@
+# Site settings
+title: SKSA Email Signature Generator
+description: Simple Jekyll App For Generating Email Signatures
+
+# Signature Settings
+phone: "010 140 1131"
+logo: /img/sk-logo-large.png
+website_url: "https://www.searchkingsafrica.com/"

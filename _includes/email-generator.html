@@ -1,0 +1,297 @@
+<style type="text/css">
+  #emailSigntureWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 20px auto;
+    background: white;
+    box-shadow: 0 5px 15px rgb(220, 220, 220);
+    border-radius: 20px;
+    width: max-content;
+  }
+
+  #emailSignatureActions {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+
+  button {
+    display: inline-block;
+    border: none;
+    padding: 5px 10px;
+    margin: 0;
+    margin-left: 10px;
+    text-decoration: none;
+    background: #e43d2d;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 5px;
+    transition: background 250ms ease-in-out, transform 150ms ease;
+  }
+
+  button:hover,
+  button:focus {
+    background: #ab2d21;
+  }
+
+  button:active {
+    transform: scale(0.9);
+  }
+</style>
+{% for member in site.data.team-members.teamMembers %}
+<div id="emailSigntureWrapper">
+  <div id="emailSignatureActions">
+    {{member.firstName}} {{member.lastName}}
+    <button
+      onclick="selectElementContents( document.getElementById('emailSignture{{member.firstName | slugify}}{{member.lastName | slugify}}') );this.innerHTML = 'Signature Copied!'">
+      Copy Signature
+    </button>
+  </div>
+  <div id="emailSignture{{member.firstName | slugify}}{{member.lastName | slugify}}">
+    <!-- Start Signature -->
+    <style type="text/css">
+      a {
+        margin: 0;
+        padding: 0;
+        border: none;
+        text-decoration: none;
+      }
+    </style>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+
+    <table
+      cellspacing="0"
+      cellpadding="0"
+      border-spacing="0"
+      style="margin: 0; padding: 0">
+      <tr>
+        <td
+          colspan="3"
+          height="15"
+          style="
+            height: 8px;
+            font-size: 8px;
+            mso-line-height-rule: exactly;
+            line-height: 15px;
+          "></td>
+      </tr>
+      <tr>
+        <td
+          colspan="3"
+          bgcolor="#cccccc"
+          height="1"
+          style="
+            height: 1px;
+            font-size: 1px;
+            mso-line-height-rule: exactly;
+            line-height: 1px;
+          ">
+          <img
+            moz-do-not-send="true"
+            src="https://static.searchkings.ca/emails-shared/spacer.gif"
+            height="1"
+            style="display: block" />
+        </td>
+      </tr>
+      <tr>
+        <td
+          colspan="3"
+          height="15"
+          style="
+            height: 15px;
+            font-size: 15px;
+            mso-line-height-rule: exactly;
+            line-height: 15px;
+          "></td>
+      </tr>
+      <tr>
+        <td width="48" valign="middle" style="width: 48px; margin: 0; padding: 0">
+          <a
+            href="mailto:{% if member.email %}{{ member.email }}{% else %}{{ member.firstName | slugify }}@searchkingsafrica.com{% endif %}"
+            style="border: none; text-decoration: none">
+            <img
+              moz-do-not-send="true"
+              src="https://www.searchkingsafrica.com/wp-content/uploads/{{ member.image_directory}}/{% if member.avatar %}{{member.avatar}}{% else %}{{member.firstName | slugify}}{% if member.lastName %}-{% endif %}{{member.lastName | slugify}}.png{% endif %}"
+              style="border: none; display: block; width: 100px" />
+          </a>
+        </td>
+
+        <!-- Spacer between avatar and text -->
+        <td
+          width="14"
+          valign="middle"
+          style="width: 17px; min-width: 17px; max-width: 17px; margin: 0; padding: 0">
+          &nbsp;
+        </td>
+
+        <td
+          valign="middle"
+          style="
+            margin: 0;
+            padding-top: 0;
+            padding-left: 0;
+            padding-bottom: 0;
+            text-align: left;
+            padding-right: 20px;
+          ">
+          <table
+            id="sig2"
+            cellspacing="0"
+            cellpadding="0"
+            border-spacing="0"
+            style="
+              padding: 0;
+              margin: 0;
+              font-family: Helvetica, Arial, sans-serif;
+              line-height: 16px;
+              color: #6d6e71;
+              border-collapse: collapse;
+              -webkit-text-size-adjust: none;
+            ">
+            <tr>
+              <td
+                height="5"
+                style="
+                  height: 5px;
+                  font-size: 5px;
+                  mso-line-height-rule: exactly;
+                  line-height: 5px;
+                ">
+                &nbsp;
+              </td>
+            </tr>
+
+            <tr style="margin: 0; padding: 0">
+              <td
+                style="
+                  margin: 0;
+                  padding: 0;
+                  font-family: Helvetica, Arial, sans-serif;
+                  white-space: nowrap;
+                  font-size: 13px;
+                  text-align: left;
+                ">
+                <strong
+                  ><a
+                    href="mailto:{% if member.email %}{{ member.email }}{% else %}{{ member.firstName | slugify }}@searchkingsafrica.com{% endif %}"
+                    style="border: none; text-decoration: none; color: #414042"
+                    ><span style="color: #414042"
+                      >{{ member.firstName }} {{ member.lastName }}</span
+                    ></a
+                  ></strong
+                >
+                <span style="color: #414042">&bull;</span>
+                <em style="color: #6d6e71; font-style: italic; font-size: 13px"
+                  >{{ member.title }}</em
+                >
+              </td>
+            </tr>
+
+            <tr>
+              <td
+                height="5"
+                style="
+                  height: 5px;
+                  font-size: 5px;
+                  mso-line-height-rule: exactly;
+                  line-height: 5px;
+                ">
+                &nbsp;
+              </td>
+            </tr>
+
+            <tr style="margin: 0; padding: 0">
+              <td
+                style="
+                  margin: 0;
+                  padding: 0;
+                  font-family: Helvetica, Arial, sans-serif;
+                  white-space: nowrap;
+                  font-size: 13px;
+                  text-align: left;
+                ">
+                <a
+                  href="tel:{{ site.phone }}"
+                  style="
+                    text-decoration: none;
+                    border: none;
+                    color: #6d6e71;
+                    font-size: 13px;
+                  "
+                  >{{ site.phone }}</a
+                >
+              </td>
+            </tr>
+
+            <tr style="margin: 0; padding: 0">
+              <td
+                style="
+                  margin: 0;
+                  padding: 0;
+                  font-family: Helvetica, Arial, sans-serif;
+                  white-space: nowrap;
+                  font-size: 13px;
+                  text-align: left;
+                ">
+                <a href="{{ site.website_url }}" target="_blank"
+                  ><img
+                    src="{{ site.logo }}"
+                    alt="SearchKings"
+                    style="
+                      height: 21px;
+                      margin-top: 9px;
+                      margin-bottom: 2px;
+                      display: inline-block;
+                    "
+                    height="21"
+                /></a>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+
+      <tr></tr>
+    </table>
+
+    <!-- End Signature -->
+  </div>
+</div>
+{% endfor %}
+
+<!-- Click-to-copy -->
+<script>
+  function selectElementContents(el) {
+    var body = document.body,
+      range,
+      sel;
+    if (document.createRange && window.getSelection) {
+      range = document.createRange();
+      sel = window.getSelection();
+      sel.removeAllRanges();
+      try {
+        range.selectNodeContents(el);
+        sel.addRange(range);
+      } catch (e) {
+        range.selectNode(el);
+        sel.addRange(range);
+      }
+    } else if (body.createTextRange) {
+      range = body.createTextRange();
+      range.moveToElementText(el);
+      range.select();
+    }
+    document.execCommand('Copy');
+  }
+</script>

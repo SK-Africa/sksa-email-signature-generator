@@ -1,0 +1,159 @@
+# Available Data:
+# - firstName: Brett
+#   lastName: Perlstein
+#   title: Team Member Title
+#   avatar: placeholder.png (default: firstName-lastName.png)
+#   email: brett@searchkingsafrica.com (default: firstName@searchkingsafrica.com)
+
+# image_direcory change based on file location url e.g. .../2023/02/amber-sharp.png
+
+teamMembers:
+  - firstName: Brett
+    lastName: Perlstein
+    title: Team Member Title
+    image_directory: 2022/12
+
+  - firstName: Kyla
+    lastName: Gellatly
+    title: Team Member Title
+    image_directory: 2022/12
+
+  - firstName: Dean
+    lastName: Lurie
+    title: Team Member Title
+    image_directory: 2022/12
+
+  - firstName: Manelisi
+    lastName: Ndebele
+    title: Team Member Title
+    image_directory: 2022/12
+    avatar: placeholder.png
+
+  - firstName: Lwazi
+    lastName: Ndlebe
+    title: Team Member Title
+    image_directory: 2022/12
+
+  - firstName: Steve
+    lastName: Donzella
+    title: Team Member Title
+    image_directory: 2022/12
+
+  - firstName: Thando
+    lastName: Somacele
+    title: Team Member Title
+    image_directory: 2022/12
+
+  - firstName: Michelle
+    lastName: Swartz
+    title: Team Member Title
+    image_directory: 2022/12
+
+  - firstName: Janno
+    lastName: du Preez
+    title: Team Member Title
+    image_directory: 2022/12
+
+  - firstName: Grant
+    lastName: Greeff
+    title: Team Member Title
+    image_directory: 2022/12
+
+  - firstName: Mumsie
+    lastName: Maje
+    title: Team Member Title
+    image_directory: 2022/12
+
+  - firstName: Justin
+    lastName: Underhill
+    title: Team Member Title
+    image_directory: 2022/12
+    avatar: placeholder.png
+
+  - firstName: Janine
+    lastName: Robbertze
+    title: Team Member Title
+    image_directory: 2022/12
+
+  - firstName: Gabriella
+    lastName: Bytenski
+    title: Team Member Title
+    image_directory: 2022/12
+    email: gabi@searchkingsafrica.com
+
+  - firstName: Kagiso
+    lastName: Mangoale
+    title: Team Member Title
+    image_directory: 2022/12
+
+  - firstName: Dillan
+    lastName: Ramrattan
+    title: Team Member Title
+    image_directory: 2022/12
+
+  - firstName: Lizelle
+    lastName: Alberts
+    title: Team Member Title
+    image_directory: 2022/12
+
+  - firstName: Reegan
+    lastName: Du Buisson
+    title: Team Member Title
+    image_directory: 2022/12
+
+  - firstName: Adam
+    lastName: Stern
+    title: Team Member Title
+    image_directory: 2022/12
+
+  - firstName: Chiara
+    lastName: Moody
+    title: Team Member Title
+    image_directory: 2022/12
+
+  - firstName: Natasha
+    lastName: Desiree Nair
+    title: Team Member Title
+    image_directory: 2022/12
+
+  - firstName: Gugulethu
+    lastName: Nkosi
+    title: Team Member Title
+    image_directory: 2022/12
+
+  - firstName: Nico
+    lastName: Swartz
+    title: Team Member Title
+    image_directory: 2022/12
+
+  - firstName: Siphiwo Sizonqoba
+    lastName: Manan
+    title: Team Member Title
+    image_directory: 2022/12
+    email: sizo@searchkingsafrica.com
+
+  - firstName: Luyanda
+    lastName: Shongwe
+    title: Team Member Title
+    image_directory: 2022/12
+
+  - firstName: Musa
+    lastName: Mahlasela
+    title: Team Member Title
+    image_directory: 2022/12
+
+  - firstName: Rick
+    lastName: Dalhuijsen
+    title: Team Member Title
+    image_directory: 2022/12
+
+  - firstName: Michael
+    lastName: Bakango
+    title: Team Member Title
+    image_directory: 2022/12
+
+  - firstName: Amber
+    lastName: Sharp
+    title: Team Member Title
+    image_directory: 2023/02
+    avatar: Amber-Sharp.png
