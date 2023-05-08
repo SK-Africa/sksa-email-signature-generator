@@ -158,8 +158,8 @@ teamMembers:
     image_directory: 2023/02
     avatar: Amber-Sharp.png
 
-  - firstName: First Name
-    lastName: Last Name
+  - firstName: Name
+    lastName: Surname
     title: Team Member Title
     image_directory: 2023/05
-    avatar: placehoder.png
+    avatar: placeholder.png
