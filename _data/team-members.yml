@@ -18,17 +18,6 @@ teamMembers:
     title: Team Member Title
     image_directory: 2022/12
 
-  - firstName: Dean
-    lastName: Lurie
-    title: Team Member Title
-    image_directory: 2022/12
-
-  - firstName: Manelisi
-    lastName: Ndebele
-    title: Team Member Title
-    image_directory: 2022/12
-    avatar: placeholder.png
-
   - firstName: Lwazi
     lastName: Ndlebe
     title: Team Member Title
@@ -64,12 +53,6 @@ teamMembers:
     title: Team Member Title
     image_directory: 2022/12
 
-  - firstName: Justin
-    lastName: Underhill
-    title: Team Member Title
-    image_directory: 2022/12
-    avatar: placeholder.png
-
   - firstName: Janine
     lastName: Robbertze
     title: Team Member Title
@@ -86,11 +69,6 @@ teamMembers:
     title: Team Member Title
     image_directory: 2022/12
 
-  - firstName: Dillan
-    lastName: Ramrattan
-    title: Team Member Title
-    image_directory: 2022/12
-
   - firstName: Lizelle
     lastName: Alberts
     title: Team Member Title
@@ -98,11 +76,6 @@ teamMembers:
 
   - firstName: Reegan
     lastName: Du Buisson
-    title: Team Member Title
-    image_directory: 2022/12
-
-  - firstName: Adam
-    lastName: Stern
     title: Team Member Title
     image_directory: 2022/12
 
@@ -132,16 +105,6 @@ teamMembers:
     image_directory: 2022/12
     email: sizo@searchkingsafrica.com
 
-  - firstName: Luyanda
-    lastName: Shongwe
-    title: Team Member Title
-    image_directory: 2022/12
-
-  - firstName: Musa
-    lastName: Mahlasela
-    title: Team Member Title
-    image_directory: 2022/12
-
   - firstName: Rick
     lastName: Dalhuijsen
     title: Team Member Title
@@ -157,6 +120,24 @@ teamMembers:
     title: Team Member Title
     image_directory: 2023/05
     avatar: Amber-Sharp.png
+
+  - firstName: Nicolla
+    lastName: Shezi
+    title: Team Member Title
+    image_directory: 2023/08
+    avatar: nicola.png
+
+  - firstName: Gerard
+    lastName: Nair
+    title: Team Member Title
+    image_directory: 2023/08
+    avatar: gerard.png
+
+  - firstName: James
+    lastName: van de Merwe
+    title: Team Member Title
+    image_directory: 2023/08
+    avatar: james.png
 
   - firstName: Name
     lastName: Surname
