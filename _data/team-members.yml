@@ -41,7 +41,7 @@ teamMembers:
   - firstName: Janno
     lastName: du Preez
     title: Team Member Title
-    image_directory: 2023/12
+    image_directory: 2024/04
 
   - firstName: Grant
     lastName: Greeff
@@ -63,11 +63,6 @@ teamMembers:
     title: Team Member Title
     image_directory: 2022/12
     email: gabi@searchkingsafrica.com
-
-  # - firstName: Kagiso
-  #   lastName: Mangoale
-  #   title: Team Member Title
-  #   image_directory: 2022/12
 
   - firstName: Lizelle
     lastName: Alberts
@@ -142,17 +137,42 @@ teamMembers:
   - firstName: Musa
     lastName: Mpumlwana
     title: Team Member Title
-    image_directory: 2023/12
+    image_directory: 2024/04
 
   - firstName: Tyler
     lastName: Bear van Staden
     title: Team Member Title
-    image_directory: 2023/12
+    image_directory: 2024/04
 
   - firstName: Sonto
     lastName: Masube
     title: Team Member Title
-    image_directory: 2023/12
+    image_directory: 2024/04
+  
+  - firstName: Liézel
+    lastName: Els
+    title: Team Member Title
+    image_directory: 2024/04
+
+  - firstName: Johanna
+    lastName: Mehlape
+    title: Team Member Title
+    image_directory: 2024/04
+
+  - firstName: Karl
+    lastName: Mhlanga
+    title: Team Member Title
+    image_directory: 2024/04
+
+  - firstName: Debbie
+    lastName: Tiltman
+    title: Team Member Title
+    image_directory: 2024/04
+
+  - firstName: Andrea
+    lastName: Van Schalkwyk
+    title: Team Member Title
+    image_directory: 2024/04
 
   - firstName: Name
     lastName: Surname
