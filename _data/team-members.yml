@@ -153,6 +153,7 @@ teamMembers:
     lastName: Els
     title: Team Member Title
     image_directory: 2024/04
+    avatar: liezel-els.png
 
   - firstName: Johanna
     lastName: Mehlape
