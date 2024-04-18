@@ -169,6 +169,11 @@ teamMembers:
     lastName: Tiltman
     title: Team Member Title
     image_directory: 2024/04
+ 
+  - firstName: Shane
+    lastName: Ah Dong
+    title: Team Member Title
+    image_directory: 2024/04
 
   - firstName: Andrea
     lastName: Van Schalkwyk
