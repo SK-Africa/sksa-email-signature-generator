@@ -11,7 +11,7 @@ teamMembers:
   - firstName: Brett
     lastName: Perlstein
     title: Team Member Title
-    image_directory: 2022/12
+    image_directory: 2024/05
 
   - firstName: Kyla
     lastName: Gellatly
@@ -137,48 +137,48 @@ teamMembers:
   - firstName: Musa
     lastName: Mpumlwana
     title: Team Member Title
-    image_directory: 2024/04
+    image_directory: 2024/05
 
   - firstName: Tyler
     lastName: Bear van Staden
     title: Team Member Title
-    image_directory: 2024/04
+    image_directory: 2024/05
 
   - firstName: Sonto
     lastName: Masube
     title: Team Member Title
-    image_directory: 2024/04
+    image_directory: 2024/05
   
   - firstName: Liézel
     lastName: Els
     title: Team Member Title
-    image_directory: 2024/04
+    image_directory: 2024/05
     avatar: liezel-els.png
 
   - firstName: Johanna
     lastName: Mehlape
     title: Team Member Title
-    image_directory: 2024/04
+    image_directory: 2024/05
 
   - firstName: Karl
     lastName: Mhlanga
     title: Team Member Title
-    image_directory: 2024/04
+    image_directory: 2024/05
 
   - firstName: Debbie
     lastName: Tiltman
     title: Team Member Title
-    image_directory: 2024/04
+    image_directory: 2024/05
  
   - firstName: Shane
     lastName: Ah Dong
     title: Team Member Title
-    image_directory: 2024/04
+    image_directory: 2024/05
 
   - firstName: Andrea
     lastName: Van Schalkwyk
     title: Team Member Title
-    image_directory: 2024/04
+    image_directory: 2024/05
 
   - firstName: Name
     lastName: Surname
