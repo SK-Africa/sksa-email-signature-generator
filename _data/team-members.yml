@@ -138,6 +138,7 @@ teamMembers:
     lastName: Mpumlwana
     title: Team Member Title
     image_directory: 2024/05
+    email: musam@searchkingsafrica.com
 
   - firstName: Tyler
     lastName: Bear van Staden
@@ -154,6 +155,7 @@ teamMembers:
     title: Team Member Title
     image_directory: 2024/05
     avatar: liezel-els.png
+    email: liezel@searchkingsafrica.com
 
   - firstName: Johanna
     lastName: Mehlape
