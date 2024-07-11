@@ -64,15 +64,15 @@ teamMembers:
     image_directory: 2022/12
     email: gabi@searchkingsafrica.com
 
-  - firstName: Lizelle
-    lastName: Alberts
-    title: Team Member Title
-    image_directory: 2022/12
+  # - firstName: Lizelle
+  #   lastName: Alberts
+  #   title: Team Member Title
+  #   image_directory: 2022/12
 
-  - firstName: Reegan
-    lastName: Du Buisson
-    title: Team Member Title
-    image_directory: 2022/12
+  # - firstName: Reegan
+  #   lastName: Du Buisson
+  #   title: Team Member Title
+  #   image_directory: 2022/12
 
   - firstName: Chiara
     lastName: Moody
@@ -116,11 +116,11 @@ teamMembers:
     image_directory: 2023/05
     avatar: Amber-Sharp.png
 
-  - firstName: Nicolla
-    lastName: Shezi
-    title: Team Member Title
-    image_directory: 2023/08
-    avatar: nicola.png
+  # - firstName: Nicolla
+  #   lastName: Shezi
+  #   title: Team Member Title
+  #   image_directory: 2023/08
+  #   avatar: nicola.png
 
   - firstName: Gerard
     lastName: Nair
