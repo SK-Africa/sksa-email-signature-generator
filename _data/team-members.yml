@@ -182,6 +182,16 @@ teamMembers:
     title: Team Member Title
     image_directory: 2024/05
 
+  - firstName: Prashanthi
+    lastName: Mundree
+    title: Head of people
+    image_directory: 2024/07
+
+  - firstName: Belinda
+    lastName: Lippert
+    title: Sales Development Representative
+    image_directory: 2024/07
+
   - firstName: Name
     lastName: Surname
     title: Team Member Title
