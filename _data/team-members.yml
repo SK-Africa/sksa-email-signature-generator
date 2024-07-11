@@ -43,10 +43,10 @@ teamMembers:
     title: Team Member Title
     image_directory: 2024/05
 
-  - firstName: Grant
-    lastName: Greeff
-    title: Team Member Title
-    image_directory: 2022/12
+  # - firstName: Grant
+  #   lastName: Greeff
+  #   title: Team Member Title
+  #   image_directory: 2022/12
 
   - firstName: Mumsie
     lastName: Maje
@@ -162,10 +162,10 @@ teamMembers:
     title: Team Member Title
     image_directory: 2024/05
 
-  - firstName: Karl
-    lastName: Mhlanga
-    title: Team Member Title
-    image_directory: 2024/05
+  # - firstName: Karl
+  #   lastName: Mhlanga
+  #   title: Team Member Title
+  #   image_directory: 2024/05
 
   - firstName: Debbie
     lastName: Tiltman
