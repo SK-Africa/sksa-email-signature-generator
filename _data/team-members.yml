@@ -191,6 +191,11 @@ teamMembers:
     lastName: Lippert
     title: Sales Development Representative
     image_directory: 2024/07
+ 
+  - firstName: Wade
+    lastName: Scobbie
+    title: Ads Manager
+    image_directory: 2024/07
 
   - firstName: Name
     lastName: Surname
