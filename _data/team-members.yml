@@ -196,6 +196,11 @@ teamMembers:
     lastName: Scobbie
     title: Ads Manager
     image_directory: 2024/07
+  
+  - firstName: Tristen
+    lastName: Herbst
+    title: Junior Technical Operations Specialist
+    image_directory: 2024/09
 
   - firstName: Name
     lastName: Surname
