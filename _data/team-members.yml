@@ -201,6 +201,11 @@ teamMembers:
     lastName: Herbst
     title: Junior Technical Operations Specialist
     image_directory: 2024/09
+ 
+  - firstName: Payge
+    lastName: Stafylarakis
+    title: Job Title
+    image_directory: 2024/10
 
   - firstName: Name
     lastName: Surname
