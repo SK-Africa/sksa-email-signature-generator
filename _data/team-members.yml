@@ -28,15 +28,15 @@ teamMembers:
     title: Team Member Title
     image_directory: 2022/12
 
-  - firstName: Thando
-    lastName: Somacele
-    title: Team Member Title
-    image_directory: 2022/12
+  # - firstName: Thando
+  #   lastName: Somacele
+  #   title: Team Member Title
+  #   image_directory: 2022/12
 
-  - firstName: Michelle
-    lastName: Swartz
-    title: Team Member Title
-    image_directory: 2022/12
+  # - firstName: Michelle
+  #   lastName: Swartz
+  #   title: Team Member Title
+  #   image_directory: 2022/12
 
   - firstName: Janno
     lastName: du Preez
@@ -53,10 +53,10 @@ teamMembers:
     title: Team Member Title
     image_directory: 2022/12
 
-  - firstName: Janine
-    lastName: Robbertze
-    title: Team Member Title
-    image_directory: 2022/12
+  # - firstName: Janine
+  #   lastName: Robbertze
+  #   title: Team Member Title
+  #   image_directory: 2022/12
 
   - firstName: Gabriella
     lastName: Bytenski
@@ -150,12 +150,12 @@ teamMembers:
     title: Team Member Title
     image_directory: 2024/05
   
-  - firstName: Liézel
-    lastName: Els
-    title: Team Member Title
-    image_directory: 2024/05
-    avatar: liezel-els.png
-    email: liezel@searchkingsafrica.com
+  # - firstName: Liézel
+  #   lastName: Els
+  #   title: Team Member Title
+  #   image_directory: 2024/05
+  #   avatar: liezel-els.png
+  #   email: liezel@searchkingsafrica.com
 
   - firstName: Johanna
     lastName: Mehlape
